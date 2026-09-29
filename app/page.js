@@ -8,9 +8,6 @@ export default function Home() {
                 <Link href="/quiz" prefetch={false}>
                     <button>شروع آزمون</button>
                 </Link>
-                <Link href="/about">
-                    <button>درباره‌ی من</button>
-                </Link>
             </div>
         </main>
     );

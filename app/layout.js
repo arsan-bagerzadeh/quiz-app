@@ -2,12 +2,7 @@ import "./globals.css";
 import "react-loading-skeleton/dist/skeleton.css";
 
 import localFont from "next/font/local";
-// import { Vazirmatn } from "next/font/google";
 
-// const vazir = Vazirmatn({
-//     subsets: ["arabic", "latin"],
-//     display: "swap",
-// });
 const vazir = localFont({
     src: "./Vazir.woff2",
     display: "swap",
@@ -19,12 +14,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children, about, modal }) {
-    // throw new Error("Root layout crashed");
     return (
         <html lang="fa-IR" dir="rtl" className={vazir.className}>
-            <body>{children}{about}{modal}
-                {/* <div id="modal-root" /> */}
-            </body>
+            <body>{children}{about}{modal}</body>
         </html>
     );
 }
