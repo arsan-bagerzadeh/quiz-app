@@ -1,0 +1,46 @@
+{
+  "common": {
+    "themeToLight": "رفتن به حالت روشن",
+    "themeToDark": "رفتن به حالت تیره",
+    "signOut": "خروج",
+    "updateAvailable": "نسخه‌ی جدید آماده است",
+    "updateNow": "به‌روزرسانی",
+    "updateLater": "بعداً",
+    "install": "نصب اپلیکیشن"
+  },
+  "home": {
+    "badge": "۵ سوال، اطلاعات عمومی",
+    "titleStart": "چقدر",
+    "titleHighlight": "اطلاعات عمومی",
+    "titleEnd": "داری؟",
+    "description": "یه کوییز کوتاه با موضوعات متنوع. جواب هر سوال رو انتخاب کن، در آخر می‌بینی چند تا درست زدی.",
+    "startBtn": "شروع آزمون"
+  },
+  "quiz": {
+    "progress": "سوال {current} از {total}",
+    "nextBtn": "سوال بعدی",
+    "finishBtn": "پایان",
+    "resultTitle": "نتیجه‌ی آزمون",
+    "yourAnswer": "جواب شما:",
+    "correctAnswer": "جواب درست:"
+  },
+  "login": {
+    "title": "ورود",
+    "email": "ایمیل",
+    "password": "رمز عبور",
+    "submit": "ورود",
+    "submitting": "در حال ورود...",
+    "invalid": "ایمیل یا رمز عبور اشتباه است",
+    "or": "یا",
+    "github": "ورود با GitHub",
+    "oauthError": "ورود ناموفق بود. دوباره تلاش کنید."
+  },
+  "notFound": {
+    "message": "این صفحه پیدا نشد یا جابه‌جا شده.",
+    "backHome": "بازگشت به خانه"
+  },
+  "error": {
+    "message": "مشکل پیش اومده 😊",
+    "retry": "تلاش مجدد"
+  }
+}

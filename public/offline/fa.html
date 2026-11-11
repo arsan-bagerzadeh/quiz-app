@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>آفلاین | اپلیکیشن کوییز</title>
+    <style>
+        :root {
+            --bg: #F6F4EE;
+            --fg: #23282D;
+            --soft: #5B6168;
+            --line: #DAD5C6;
+            --amber: #D9A441;
+            --amber-ink: #2B2107;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1B2A24;
+                --fg: #F2EFE4;
+                --soft: #AEB8AE;
+                --line: #34453D;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: var(--bg);
+            color: var(--fg);
+            font-family: Tahoma, "Segoe UI", system-ui, sans-serif;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        main {
+            max-width: 360px;
+        }
+
+        .icon {
+            width: 72px;
+            height: 72px;
+            margin: 0 auto 24px;
+            border-radius: 50%;
+            background: var(--amber);
+            color: var(--amber-ink);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin: 0 0 28px;
+            color: var(--soft);
+        }
+
+        button {
+            font: inherit;
+            font-weight: 700;
+            padding: 12px 32px;
+            border: 0;
+            border-radius: 999px;
+            background: var(--amber);
+            color: var(--amber-ink);
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: .9;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="icon" aria-hidden="true">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 8.8a15 15 0 0 1 20 0" />
+                <path d="M5 12.5a10 10 0 0 1 14 0" />
+                <path d="M8.5 16a5 5 0 0 1 7 0" />
+                <path d="M12 20h.01" />
+                <path d="M3 3l18 18" />
+            </svg>
+        </div>
+        <h1>آفلاین هستید</h1>
+        <p>اتصال اینترنت شما قطع است. اتصال را بررسی کنید و دوباره تلاش کنید.</p>
+        <button type="button" id="retry">تلاش دوباره</button>
+    </main>
+    <script>
+        document.getElementById("retry").addEventListener("click", function () {
+            location.reload();
+        });
+        window.addEventListener("online", function () {
+            location.reload();
+        });
+    </script>
+</body>
+
+</html>

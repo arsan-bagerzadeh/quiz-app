@@ -1,0 +1,46 @@
+{
+  "common": {
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode",
+    "signOut": "Sign out",
+    "updateAvailable": "A new version is available",
+    "updateNow": "Update",
+    "updateLater": "Later",
+    "install": "Install app"
+  },
+  "home": {
+    "badge": "5 questions, general knowledge",
+    "titleStart": "How much",
+    "titleHighlight": "general knowledge",
+    "titleEnd": "do you have?",
+    "description": "A short quiz on varied topics. Pick an answer for each question and see your score at the end.",
+    "startBtn": "Start quiz"
+  },
+  "quiz": {
+    "progress": "Question {current} of {total}",
+    "nextBtn": "Next question",
+    "finishBtn": "Finish",
+    "resultTitle": "Quiz result",
+    "yourAnswer": "Your answer:",
+    "correctAnswer": "Correct answer:"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "invalid": "Invalid email or password",
+    "or": "or",
+    "github": "Continue with GitHub",
+    "oauthError": "Sign-in failed. Please try again."
+  },
+  "notFound": {
+    "message": "This page could not be found or has moved.",
+    "backHome": "Back to home"
+  },
+  "error": {
+    "message": "Something went wrong 😊",
+    "retry": "Try again"
+  }
+}

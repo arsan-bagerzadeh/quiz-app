@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-paper: #F6F4EE;
+    --color-paper-line: #DAD5C6;
+    --color-ink: #23282D;
+    --color-ink-soft: #5B6168;
+
+    --color-slate: #1B2A24;
+    --color-slate-line: #34453D;
+    --color-chalk: #F2EFE4;
+    --color-chalk-soft: #AEB8AE;
+
+    --color-amber: #D9A441;
+    --color-amber-ink: #2B2107;
+    --color-brick: #B75341;
+}
+
+.chalk-underline {
+    position: relative;
+    display: inline-block;
+}
+.chalk-underline::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: -0.18em;
+    height: 0.28em;
+    background-color: var(--color-amber);
+    opacity: 0.55;
+    border-radius: 2px;
+    transform: rotate(-0.6deg);
+}
